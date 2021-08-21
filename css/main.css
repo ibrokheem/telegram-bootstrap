@@ -1,0 +1,535 @@
+:root{
+  --main-font: "Arial";
+  --txt-color: #808080;
+}
+
+html{
+  box-sizing: border-box;
+}
+
+*,*::after,*::before{
+  box-sizing: inherit;
+}
+
+body{
+  height: 100%;
+  font-family: var(--main-font), sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  background: #fff;
+  color: #808080;
+  overflow: hidden;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.container{
+  width: 100%;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* CHATS */
+.chats__menu-toggler{
+  width: 28px;
+  height: 28px;
+  background-image: url(../img/ic-menu.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.chats__locker{
+  width: 28px;
+  height: 28px;
+  background-image: url("../img/ic-unlock.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.chats__img{
+  width: 52px;
+  height: 52px;
+}
+
+.isSended--disabled{
+  display: none;
+}
+
+.chats__pin--disabled{
+  display: none;
+}
+
+.chats__title--channel::before{
+  content: "";
+  margin-right: 3px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../img/ic-channel.svg");
+}
+
+.chats__title--bot::before{
+  content: "";
+  margin-right: 3px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../img/ic-bot.svg");
+}
+
+.chats__title--group::before{
+  content: "";
+  margin-right: 3px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../img/ic-group.svg");
+}
+
+.chats__content{
+  width: 200px;
+}
+
+.chats__pin{
+  width: 20px;
+  height: 20px;
+}
+
+/* MODAL */
+.modal__img{
+  width: 60px;
+  height: 60px;
+}
+
+.modal-header__saved{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: block;
+  background-image: url("../img/ic-saved.svg");
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.modal-header__account-toggler{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: block;
+  background-image: url("../img/ic-arrow-up.svg");
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.sidebar-item::before{
+  width: 40px;
+  height: 40px;
+  content: "";
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sidebar-item:nth-child(1)::before{
+  background-image: url("../img/ic-group.svg");
+}
+.sidebar-item:nth-child(2)::before{
+  background-image: url("../img/ic-channel.svg");
+}
+.sidebar-item:nth-child(3)::before{
+  background-image: url("../img/ic-person.svg");
+}
+.sidebar-item:nth-child(4)::before{
+  background-image: url("../img/ic-call.svg");
+}
+.sidebar-item:nth-child(5)::before{
+  background-image: url("../img/ic-settings.svg");
+}
+.sidebar-item:nth-child(6)::before{
+  background-image: url("../img/ic-moon.svg");
+}
+
+/* MAIN CHAT */
+.chats{
+  overflow: hidden;
+}
+
+.chat__btn-search {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/ic-search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.chat__btn-audio-chat {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/ic-voice-chat.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.chat__btn-resize {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/ic-resize.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.chat__btn-options {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/ic-more.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.chat__pinned-message{
+  top: 50px;
+  left: 0px;
+  padding-left: 25px;
+  padding-right: 25px;
+  z-index: 100;
+}
+
+.chat__pinned-message__message{
+  width: 100%;
+}
+
+.chat__btn-pinned{
+  width: 22px;
+  height: 22px;
+  background-image: url("../img/ic-pin.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+/* CHAT BODY */
+.chat__body{
+  height: 80vh;
+  background-image: url("../img/mayoq.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+}
+
+.chat__body__img{
+  width: 40px;
+  height: 40px;
+  display: block;
+  border-radius: 50%;
+}
+
+.chat__received-message__content{
+  max-width: 500px;
+  height: auto;
+}
+
+.chat__sent-message__content{
+  max-width: 380px;
+  height: auto;
+}
+
+/* CHAT PANEL */
+.chat__panel{
+  width: 100%;
+  z-index: 999;
+}
+
+.input-file{
+  display: none;
+}
+
+.txt-message{
+  resize: none;
+  outline: none;
+}
+
+.btn-file{
+  width: 25px;
+  height: 25px;
+  display: block;
+  background-image: url("../img/ic-attach.svg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.btn-emojis{
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-image: url("../img/ic-smile.svg");
+  background-color: tr;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-record-audio{
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-image: url("../img/ic-voice.svg");
+  background-color: tr;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/* EMOJI */
+.emoji{
+  overflow: hidden;
+}
+
+.emojis__content{
+  height: 86vh;
+  overflow: auto;
+}
+
+.emojis__item:hover{
+  background-color: #dad1d1;
+}
+
+.btn-emoji{
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+.emojis__nav{
+  height: 7vh !important;
+}
+
+.emojis__nav-link{
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  flex-grow: 1;
+}
+
+.link-recenty-used{
+  background-image: url("../img/clock.svg");
+}
+
+.link-people{
+  background-image: url("../img/ic-smile.svg");
+}
+
+.link-nature{
+  background-image: url("../img/cat.png");
+}
+
+.link-food{
+  height: 28px;
+  background-image: url("../img/apple.svg");
+}
+
+.link-activity{
+  background-image: url("../img/ball.svg");
+}
+
+.link-travel{
+  background-image: url("../img/car.svg");
+}
+
+.link-objects{
+  background-image: url("../img/light.svg");
+}
+
+.link-symbols{
+  background-image: url("../img/heart.svg");
+}
+
+.emojis__gif{
+  display: block;
+  width: 66px;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* MODAL */
+.modal{
+  position: absolute;
+  top: 0; 
+  left: 0;
+}
+
+/* FRONTEND MODAL */
+.modal-body__img{
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.when-opened::before{
+  width: 20%;
+  margin-right: auto;
+  content: "";
+  display: block;
+  height: 20px;
+  background-image: url("../img/ic-info.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.notification-control::before{
+  content: "";
+  width: 20%;
+  height: 20px;
+  background-image: url("../img/notification-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.photo::before{
+  content: "";
+  display: block;
+  width: 20%;
+  height: 20px;
+  background-image: url("../img/image-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.video::before{
+  content: "";
+  display: block;
+  width: 20%;
+  height: 20px;
+  background-image: url("../img/video-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.file::before{
+  content: "";
+  display: block;
+  width: 20%;
+  height: 20px;
+  background-image: url("../img/ic-doc.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.link::before{
+  content: "";
+  display: block;
+  width: 20%;
+  height: 20px;
+  background-image: url("../img/link-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.voice-message::before{
+  content: "";
+  display: block;
+  width: 20%;
+  height: 20px;
+  background-image: url("../img/ic-voice.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.gif::before{
+  content: "";
+  display: block;
+  width: 20%;
+  height: 20px;
+  background-image: url("../img/gif-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.members::before{
+  content: "";
+  display: block;
+  width: 20%;
+  height: 20px;
+  background-image: url("../img/ic-group.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.members::after{
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/ic-search.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: auto;
+}
+
+.modal__profile-txt{
+  font-size: 18px;
+}
+
+.modal__profile-img{
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #adadad; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #adadad; 
+}

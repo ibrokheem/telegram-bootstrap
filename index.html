@@ -1,0 +1,2551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telegram</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+  <div class="container">
+    <div class="row">
+      <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+        Launch demo modal
+      </button> -->
+      <h1 class="sr-only">Telegram</h1>
+      <section class="chats col-3 p-0 vh-100">
+        <h2 class="sr-only">Telegram chats</h2>
+        <div class="chats__header d-flex align-items-center p-2">
+          <button class="chats__menu-toggler border-0 bg-transparent" type="button" aria-label="menu toggler" data-target="#exampleModal" data-toggle="modal"></button>
+
+          <form class="mx-auto" action="https://echo.htmlacademy.ru" method="POST">
+            <div class="form-outline">
+              <input class="form-control bg-light" type="search" id="form1" name="search" placeholder="Search"
+              aria-label="Search"/>
+            </div>
+          </form>
+
+          <button class="chats__locker border-0 bg-transparent" aria-label="lock/unlock"></button>
+        </div>
+
+        <ul class="chats__list list-unstyled vh-100 overflow-auto nav nav-pills pb-5">
+          <li class="chats__item d-flex align-items-center position-relative nav-item flex-grow-1">
+            <a class="chats__link nav-link w-100 d-flex align-items-center p-2" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+
+              <img class="chats__img d-block bg-secondary rounded-circle p-2 mr-3" src="img/ic-archive.svg" alt="" width="52" height="52">
+
+            <div class="d-flex flex-column align-items-start mr-auto">
+              <h3 class="chats__title m-0 h6 font-weight-bold text-dark">Archived chats</h3>
+              <p class="chats__content m-0 font-weight-bold text-dark">Azon.uz | Rasmiy kanal </p>
+            </div>
+
+            <span class="badge px-2 bg-secondary rounded-pill text-light align-self-end">1634</span>
+            </a>
+          </li>
+
+          <li class="chats__item d-flex align-items-center position-relative p-0 flex-grow-1">
+            <a class="chats__link nav-link w-100 d-flex align-items-center p-2" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+              <img class="chats__img d-block bg-primary rounded-circle p-2 mr-3" src="img/ic-saved.svg" alt="" width="52" height="52">
+              
+              <div class="d-flex flex-column align-items-start mr-auto">
+                <h3 class="chats__title mb-1 h6 font-weight-bold text-dark">Saved messages</h3>
+                <p class="chats__content m-0"><span class="text-primary">You:</span>71-54309</p>
+              </div>
+  
+              <div class="d-flex flex-column align-items-end">
+                <time class="mb-2" datetime="09:30">9:30 AM</time>
+                <img class="chats__pin" src="img/ic-pin.svg" alt="pinned" width="10" height="5">
+              </div>  
+            </a>
+
+          </li>
+
+          <li class="chats__item d-flex align-items-center position-relative p-0 flex-grow-1">
+            <a class="chats__link nav-link w-100 d-flex align-items-center p-2" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+              <img class="chats__img d-block bg-primary rounded-circle img-fluid mr-3" src="https://picsum.photos/id/870/52/52" alt="" width="52" height="52">
+              <div class="d-flex flex-column align-items-start mr-auto">
+                <div class="d-flex w-100 justify-content-between">
+                  <h3 class="chats__title d-flex chats__title--channel mb-2 h6 font-weight-bold text-dark">Mayoq</h3>
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 24 24" width="20px" fill="#4EFC42"><path d="M0 0h24v24H0z" fill="none"/><path d="M18 7l-1.41-1.41-6.34 6.34 1.41 1.41L18 7zm4.24-1.41L11.66 16.17 7.48 12l-1.41 1.41L11.66 19l12-12-1.42-1.41zM.41 13.41L6 19l1.41-1.41L1.83 12 .41 13.41z"/></svg>
+                  </span>
+                </div>
+                <p class="chats__content m-0 text-truncate d-block "><span class="text-primary">Photo,</span>Dasturlashga oid jumboqlar jumboqlar yechimi</p>
+              </div>
+  
+              <div class="d-flex flex-column align-items-end">
+                <time class="chats__time mb-2" datetime="09:30">9:30 AM</time>
+                <img class="chats__pin" src="img/ic-pin.svg" alt="pinned" width="10" height="5">
+              </div>  
+            </a>
+
+          </li>
+
+          <li class="chats__item d-flex align-items-center position-relative nav-item flex-grow-1">
+            <a class="chats__link nav-link w-100 d-flex align-items-center p-2" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+              <img class="chats__img d-block bg-primary rounded-circle img-fluid mr-3" src="https://picsum.photos/52/52" alt="" width="52" height="52">
+
+              <div class="d-flex flex-column align-items-start mr-auto">
+                <div class="d-flex w-100 justify-content-between">
+                  <h3 class="chats__title d-flex chats__title--channel mb-2 h6 font-weight-bold text-dark">uy ishlari temp</h3>
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 24 24" width="20px" fill="#4EFC42"><path d="M0 0h24v24H0z" fill="none"/><path d="M18 7l-1.41-1.41-6.34 6.34 1.41 1.41L18 7zm4.24-1.41L11.66 16.17 7.48 12l-1.41 1.41L11.66 19l12-12-1.42-1.41zM.41 13.41L6 19l1.41-1.41L1.83 12 .41 13.41z"/></svg>
+                  </span>
+                </div>
+                <p class="chats__content m-0 text-truncate d-block "><span class="text-primary"></span>moneygramdaman</p>
+              </div>
+  
+              <div class="d-flex flex-column align-items-end">
+                <time class="chats__time mb-2" datetime="09:30">9:30 AM</time>
+                <img class="chats__pin" src="img/ic-pin.svg" alt="pinned" width="10" height="5">
+              </div>  
+            </a>
+
+          </li>
+
+          <li class="chats__item d-flex align-items-center position-relative nav-item flex-grow-1">
+            <a class="chats__link nav-link w-100 d-flex align-items-center p-2" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+              <img class="chats__img d-block bg-primary rounded-circle img-fluid mr-3" src="img/mayoq-contact.jpg" alt="" width="52" height="52">
+
+              <div class="d-flex flex-column align-items-start mr-auto">
+                <div class="d-flex w-100 justify-content-between">
+                  <h3 class="chats__title d-flex chats__title--bot mb-2 h6 font-weight-bold text-dark">Mayoq Contact Bot</h3>
+                  <span class="isSended isSended--disabled">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 24 24" width="20px" fill="#4EFC42"><path d="M0 0h24v24H0z" fill="none"/><path d="M18 7l-1.41-1.41-6.34 6.34 1.41 1.41L18 7zm4.24-1.41L11.66 16.17 7.48 12l-1.41 1.41L11.66 19l12-12-1.42-1.41zM.41 13.41L6 19l1.41-1.41L1.83 12 .41 13.41z"/></svg>
+                  </span>
+                </div>
+                <p class="chats__content m-0 text-truncate d-block "><span class="text-primary">GIF</span></p>
+              </div>
+  
+              <div class="d-flex flex-column align-items-end">
+                <time class="chats__time mb-2" datetime="09:30">9:30 AM</time>
+                <img class="chats__pin" src="img/ic-pin.svg" alt="pinned" width="10" height="5">
+              </div>  
+            </a>
+
+          </li>
+
+          <li class="chats__item d-flex align-items-center position-relative nav-item flex-grow-1">
+            <a class="chats__link nav-link w-100 d-flex align-items-center p-2" id="pills-home-tab" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home">
+              <img class="chats__img d-block bg-primary rounded-circle img-fluid mr-3" aria-selected="true" src="img/itmasters.jpg" alt="" width="52" height="52">
+
+              <div class="d-flex flex-column align-items-start mr-auto">
+                <div class="d-flex w-100 justify-content-between">
+                  <h3 class="chats__title chats__title--channel d-flex mb-2 h6 font-weight-bold text-dark text-truncate">IT masters</h3>
+                  <span class="isSended isSended--disabled">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 24 24" width="20px" fill="#4EFC42"><path d="M0 0h24v24H0z" fill="none"/><path d="M18 7l-1.41-1.41-6.34 6.34 1.41 1.41L18 7zm4.24-1.41L11.66 16.17 7.48 12l-1.41 1.41L11.66 19l12-12-1.42-1.41zM.41 13.41L6 19l1.41-1.41L1.83 12 .41 13.41z"/></svg>
+                  </span>
+                </div>
+
+                <p class="chats__content m-0 text-truncate d-block "><span class="text-primary">Photo:</span>CMD terminal uchun buyruqlar: link (http://more-it.ru/komandy-cmd-komandy-komandnoj-stroki-komandnaya-stroka/)</p>
+              </div>
+
+              <div class="d-flex flex-column align-items-end">
+                <time class="chats__time mb-2" datetime="09:30">9:30 AM</time>
+
+                <img class="chats__pin" src="img/ic-pin.svg" alt="pinned" width="10" height="5">
+              </div>  
+            </a>
+          </li>
+
+          <li class="chats__item d-flex align-items-center position-relative nav-item flex-grow-1">
+            <a class="chats__link nav-link w-100 d-flex align-items-center p-2" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+              <img class="chats__img d-block bg-primary rounded-circle img-fluid mr-3" src="img/texnoman.jpg" alt="" width="52" height="52">
+
+              <div class="d-flex flex-column align-items-start mr-auto">
+                <div class="d-flex w-100 justify-content-between">
+                  <h3 class="chats__title d-flex chats__title--group mb-2 h6 font-weight-bold text-dark text-truncate">Texnoman.uz guruhi</h3>
+                  <span class="isSended isSended--disabled">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 24 24" width="20px" fill="#4EFC42"><path d="M0 0h24v24H0z" fill="none"/><path d="M18 7l-1.41-1.41-6.34 6.34 1.41 1.41L18 7zm4.24-1.41L11.66 16.17 7.48 12l-1.41 1.41L11.66 19l12-12-1.42-1.41zM.41 13.41L6 19l1.41-1.41L1.83 12 .41 13.41z"/></svg>
+                  </span>
+                </div>
+  
+                <p class="chats__content m-0 text-truncate d-block "><span class="text-primary">Texnoman.uz:</span>Boston Dynamics yangi robotlari har xil mashqlar qilayotgan videoni e'lon qilibdi. Keyingi 5-10 yilda ulardan real foydalanishni boshlashsa kerak, masalan xarbiy, xizmat ko'rsatish sohalarida.</p>
+              </div>
+  
+              <div class="d-flex flex-column align-items-end">
+                <time class="chats__time mb-2" datetime="09:30">9:30 AM</time>
+  
+                <img class="chats__pin chats__pin--disabled" src="img/ic-pin.svg" alt="pinned" width="10" height="5">
+              </div>  
+            </a>
+
+          </li>
+
+          <li class="chats__item d-flex align-items-center position-relative nav-item flex-grow-1">
+            <a class="chats__link nav-link w-100 d-flex align-items-center p-2" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+              <img class="chats__img d-block bg-primary rounded-circle img-fluid mr-3" src="img/shogird-tilidan.jpg" alt="" width="52" height="52">
+
+              <div class="d-flex flex-column align-items-start mr-auto">
+                <div class="d-flex w-100 justify-content-between">
+                  <h3 class="chats__title d-flex mb-2 h6 font-weight-bold text-dark">Mukhammadyn</h3>
+                  <span class="isSended isSended--disabled">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 24 24" width="20px" fill="#4EFC42"><path d="M0 0h24v24H0z" fill="none"/><path d="M18 7l-1.41-1.41-6.34 6.34 1.41 1.41L18 7zm4.24-1.41L11.66 16.17 7.48 12l-1.41 1.41L11.66 19l12-12-1.42-1.41zM.41 13.41L6 19l1.41-1.41L1.83 12 .41 13.41z"/></svg>
+                  </span>
+                </div>
+                <p class="chats__content m-0 text-truncate d-block "><span class="text-primary">GIF</span></p>
+              </div>
+
+              <div class="d-flex flex-column align-items-end">
+                <time class="chats__time mb-2" datetime="09:30">9:30 AM</time>
+                <img class="chats__pin chats__pin--disabled" src="img/ic-pin.svg" alt="pinned" width="10" height="5">
+              </div>
+            </a>
+
+               
+          </li>
+
+          <li class="chats__item d-flex align-items-center position-relative nav-item flex-grow-1">
+            <a class="chats__link nav-link w-100 d-flex align-items-center p-2" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+              <img class="chats__img d-block bg-primary rounded-circle img-fluid mr-3" src="img/uzgeeks.jpg" alt="" width="52" height="52">
+
+              <div class="d-flex flex-column align-items-start mr-auto">
+                <div class="d-flex w-100 justify-content-between">
+                  <h3 class="chats__title d-flex chats__title--group mb-2 h6 font-weight-bold text-dark text-truncate">UzGeeks flood</h3>
+                  <span class="isSended isSended--disabled">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 24 24" width="20px" fill="#4EFC42"><path d="M0 0h24v24H0z" fill="none"/><path d="M18 7l-1.41-1.41-6.34 6.34 1.41 1.41L18 7zm4.24-1.41L11.66 16.17 7.48 12l-1.41 1.41L11.66 19l12-12-1.42-1.41zM.41 13.41L6 19l1.41-1.41L1.83 12 .41 13.41z"/></svg>
+                  </span>
+                </div>
+
+                <p class="chats__content m-0 text-truncate d-block "><span class="text-primary">Mr Sardor:</span>Oh, thanks great.</p>
+              </div>
+
+              <div class="d-flex flex-column align-items-end">
+                <time class="chats__time mb-2" datetime="09:30">9:30 AM</time>
+
+                <img class="chats__pin chats__pin--disabled" src="img/ic-pin.svg" alt="pinned" width="10" height="5">
+              </div>
+            </a>
+
+   
+          </li>
+
+          <li class="chats__item d-flex align-items-center position-relative nav-item flex-grow-1">
+            <a class="chats__link nav-link w-100 d-flex align-items-center p-2" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true" >
+              <img class="chats__img d-block bg-primary rounded-circle img-fluid mr-3" src="img/nt-programming.jpg" alt="" width="52" height="52" >
+              <div class="d-flex flex-column align-items-start mr-auto">
+                <div class="d-flex w-100 justify-content-between">
+                  <h3 class="chats__title d-flex chats__title--group mb-2 h6 font-weight-bold text-dark text-truncate">NT programming</h3>
+                  <span class="isSended isSended--disabled">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 24 24" width="20px" fill="#4EFC42"><path d="M0 0h24v24H0z" fill="none"/><path d="M18 7l-1.41-1.41-6.34 6.34 1.41 1.41L18 7zm4.24-1.41L11.66 16.17 7.48 12l-1.41 1.41L11.66 19l12-12-1.42-1.41zM.41 13.41L6 19l1.41-1.41L1.83 12 .41 13.41z"/></svg>
+                  </span>
+                </div>
+
+                <p class="chats__content m-0 text-truncate d-block "><span class="text-primary">no name: </span>#эслатма
+                  Абдуллоҳ ибн Аббос родияллоҳу анҳумодан ривоят қилинади: “Расулуллоҳ соллаллоҳу алайҳи ва саллам Ошуро куни рўзасини тутиб, (бошқаларга ҳам) уни тутишни буюрганларида саҳобалар: “Эй Расулуллоҳ, бу яҳудий ва насронийлар улуғлайдиган кун”, деб айтишди.</p>
+              </div>
+
+              <div class="d-flex flex-column align-items-end">
+                <time class="chats__time mb-2" datetime="09:30">9:30 AM</time>
+
+                <img class="chats__pin chats__pin--disabled" src="img/ic-pin.svg" alt="pinned" width="10" height="5">
+              </div>
+            </a>
+
+              
+          </li>
+
+          <li class="chats__item d-flex align-items-center position-relative nav-item flex-grow-1">
+            <a class="chats__link nav-link w-100 d-flex align-items-center p-2" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+              <img class="chats__img d-block bg-primary rounded-circle img-fluid mr-3" src="img/ocr-bot.jpg" alt="" width="52" height="52">
+              <div class="d-flex flex-column align-items-start mr-auto">
+                <div class="d-flex w-100 justify-content-between">
+                  <h3 class="chats__title d-flex chats__title--bot mb-2 h6 font-weight-bold text-dark text-truncate">OCR this</h3>
+                  <span class="isSended isSended--disabled">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 24 24" width="20px" fill="#4EFC42"><path d="M0 0h24v24H0z" fill="none"/><path d="M18 7l-1.41-1.41-6.34 6.34 1.41 1.41L18 7zm4.24-1.41L11.66 16.17 7.48 12l-1.41 1.41L11.66 19l12-12-1.42-1.41zM.41 13.41L6 19l1.41-1.41L1.83 12 .41 13.41z"/></svg>
+                  </span>
+                </div>
+
+                <p class="chats__content m-0 text-truncate d-block "><span class="text-primary"></span>Great! Now just send me the PDF file, JPG or PNG to recognise and get the result in Word format (DOCX) and text, if the text on the picture is not too big.</p>
+              </div>
+
+              <div class="d-flex flex-column align-items-end">
+                <time class="chats__time mb-2" datetime="09:30">9:30 AM</time>
+
+                <img class="chats__pin chats__pin--disabled" src="img/ic-pin.svg" alt="pinned" width="10" height="5">
+              </div>
+            </a>
+
+  
+          </li>
+        </ul>
+      </section>
+
+      <section class="chat position-relative col-6 p-0 vh-100">
+        <h2 class="sr-only">Telegram chat</h2>
+        <div class="">
+          <div class="chat__header d-flex align-items-center justify-content-between px-4 py-2 border bg-white">
+            <div class="chat__info flex-grow-1 position-relative">
+              <a class="stretched-link" href="#exampleModalLong" data-toggle="modal" data-target="#exampleModalLong"></a>
+              <h3 class="chat__info__title h6 font-weight-bold text-dark m-0">Frontend Bootcamp N1 |09:00| #nt044</h3>
+              <p class="chat__info__members m-0"><span class="chat__members-quantity">21 </span>members</p>
+            </div>
+ 
+            <div class="chat__nav d-flex align-items-center">
+              <button class="chat__btn-search border-0 bg-transparent mr-2"></button>
+              <button class="chat__btn-audio-chat border-0 bg-transparent mr-2"></button>
+              <button class="chat__btn-resize border-0 bg-transparent mr-2"></button>
+              <button class="chat__btn-options border-0 bg-transparent"></button>
+            </div>
+
+            <a href="#">
+              <div class="chat__pinned-message position-absolute bg-white d-flex align-items-center justify-content-between w-100 py-2 border">
+                <div class="d-flex flex-column align-items-start justify-content-between w-100">
+                  <span class="text-primary font-weight-bold">Pinned message</span>
+                  <p class="chat__pinned-message__message text-dark d-block text-truncate m-0">80-dars-20.08.2021 Bootstrap 4 dan Imtihon 1.Chatlar-19.08.2021-15:00-15:15 ZIP-oddiy chat, kanallar botlarx </p>
+                </div>
+                <button class="chat__btn-pinned border-0 bg-transparent flex-shrink-0"></button>
+              </div>
+            </a>
+          </div>
+
+          <div class="chat__body mt-5 p-2">
+            <div class="chat__received-message d-flex align-items-center mb-5">
+              <img class="chat__body__img mr-3 align-self-end" src="img/mukhammadyn.jpg" alt="" width="30" height="30">
+
+              <div class="chat__received-message__content d-flex flex-column bg-white rounded px-3 py-2">
+                <h3 class="h6 text-danger mb-1 font-weight-bold">Nurmuhammad</h3>
+                <p class="chat__received-message__txt align-self-start text-dark m-0">Assalomu alaykum.Bugun ozgina kech qolaman.</p>
+                <time class="align-self-end" datetime="08:46">08:46 AM</time>
+              </div>
+            </div>
+
+            <div class="chat__received-message d-flex align-items-center mb-5">
+              <img class="chat__body__img mr-3 align-self-end" src="https://picsum.photos/30/30" alt="" width="30" height="30">
+
+              <div class="chat__received-message__content d-flex flex-column bg-white rounded px-3 py-2">
+                <h3 class="h6 text-danger mb-1 font-weight-bold">Islom</h3>
+                <p class="chat__received-message__txt align-self-start text-dark m-0">Men ham kech qoliwim mumkin</p>
+                <time class="align-self-end" datetime="08:46">08:46 AM</time>
+              </div>
+            </div>
+            
+            <div class="chat__received-message d-flex align-items-center my-5">
+              <img class="chat__body__img mr-3 align-self-end" src="img/teacher.jpg" alt="" width="30" height="30">
+
+              <div class="chat__sent-message__content d-flex flex-column bg-white rounded px-3 py-2">
+                <h3 class="h6 text-primary mb-1 font-weight-bold">Muhammadjavohir aka</h3>
+                <p class="chat__received-message__txt align-self-start text-dark m-0">Va alaykum assalom.</p>
+                <time class="align-self-end" datetime="08:48">08:48 PM</time>
+
+              </div>
+            </div>
+
+            <div class="chat__received-message d-flex align-items-center my-5">
+              <img class="chat__body__img mr-3 align-self-end" src="img/sarvar.jpg" alt="" width="30" height="30">
+
+              <div class="chat__received-message__content d-flex flex-column bg-white rounded px-3 py-2">
+                <h3 class="h6 text-success m-0 font-weight-bold">Sarvar</h3>
+                <p class="chat__received-message__txt align-self-start text-dark m-0">Assalomu alaykum.Men ham 15 daqiqacha kech qolishim mumkin.Uzr.</p>
+                <time class="align-self-end" datetime="08:50">08:50 PM</time>
+
+              </div>
+            </div>
+
+            <div class="chat__received-message d-flex align-items-center my-5">
+              <img class="chat__body__img mr-3 align-self-end" src="img/avaz.jpg" alt="" width="30" height="30">
+
+              <div class="chat__received-message__content d-flex flex-column bg-white rounded px-3 py-2">
+                <h3 class="h6 text-danger m-0 font-weight-bold">Avaz</h3>
+                <p class="chat__received-message__txt align-self-start text-dark m-0">Assalomu alaykum.Men ham biroz kech qolyapman uzr.</p>
+                <time class="align-self-end" datetime="08:58">08:56 PM</time>
+
+              </div>
+            </div>
+
+            <div class="chat__sent-message__content d-flex flex-column bg-success rounded px-3 py-2 text-white ml-auto my-5">
+              <p class="chat__sent-message__txt align-self-start text-white m-0">Assalomu alaykum.Men ham kechga qolyapman.Uzr</p>
+              <time class="align-self-end" datetime="08:58">08:56 PM</time>
+            </div>
+            
+            <div class="chat__received-message d-flex align-items-center">
+              <img class="chat__body__img mr-3 align-self-end" src="img/teacher.jpg" alt="" width="30" height="30">
+
+              <div class="chat__received-message__content d-flex flex-column bg-white rounded px-3 py-2">
+                <h3 class="h6 text-primary mb-1 font-weight-bold">Muhammadjavohir aka</h3>
+                <p class="chat__received-message__txt align-self-start text-dark m-0">Va alaykum assalom.</p>
+                <time class="align-self-end" datetime="09:00">09:00 AM</time>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="chat__panel w-100 bg-white p-2">
+            <form class="d-flex align-items-center" action="https://echo.htmlacademy.ru" method="POST">
+              <div class="input-group d-flex align-items-center">
+                <div>
+                  <label class="d-flex align-items-center">
+                    <input type="file" class="input-file form-control">
+                    <span class="btn-file"></span>
+                  </label>
+                </div>
+                
+                <textarea class="txt-message flex-grow-1 border-0 px-2" name="message" cols="30" rows="1" placeholder="Write your message here"></textarea>
+
+                <button class="btn-emojis border-0 bg-transparent mr-2" type="button"></button>
+                <button class="btn-record-audio border-0 bg-transparent" type="button"></button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="emoji-gif col-3 p-0 vh-100">
+        <h2 class="sr-only">Emoji, sticker, gifs</h2>
+        <div class="vh-100">
+          <nav class="w-100">
+            <div class="nav nav-tabs flex-grow-1 border-0" id="nav-tab" role="tablist">
+              <a class="nav-link active flex-grow-1 text-center border-left-0 border-right-0 border-bottom py-3 align-self-center" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">EMOJI</a>
+              <a class="nav-link flex-grow-1 text-center border-right-0 border-left-0 border-bottom py-3" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">STICKER</a>
+              <a class="nav-link flex-grow-1 text-center border-bottom border-right-0 border-left-0 py-3" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">GIF</a>
+            </div>
+          </nav>
+
+          <div class="emojis tab-content px-1 position-relative" id="nav-tabContent" data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+              <div class="emojis__content bg-white position-relative">
+                <div class="pb-3" >
+                  <h4 class="h6 pl-3" id="list-item-1">Recently used</h4>
+                  <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex">
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="emojis__item btn-emoji bg-transparent border-0 p-0 flex-grow-1 ">😀</button>
+                    </li>
+
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 py-1 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="pb-3">
+                  <h4 class="h6 pl-3" id="list-item-3">Nature</h4>
+                  <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex">
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">👍</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">👍</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">👍</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">👍</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">👍</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">👍</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">👍</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">👍</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">👍</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">👍</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <!-- 63 -->
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                  
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="pb-3">
+                  <h4 class="h6 pl-3" id="list-item-4">Food & Drink</h4>
+                  <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex">
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😎</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😎</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😎</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😎</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😎</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😎</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😎</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😎</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😎</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <!-- 63 -->
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                  
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="pb-3">
+                  <h4 class="h6 pl-3" id="list-item-5">Activity</h4>
+                  <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex">
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">❤️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">❤️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">❤️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">❤️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">❤️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">❤️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">❤️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">❤️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">❤️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">❤️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">❤️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <!-- 63 -->
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                  
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="pb-3">
+                  <h4 class="h6 pl-3" id="list-item-6">Travel & places</h4>
+                  <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex">
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="emojis__item btn-emoji bg-transparent border-0 p-0 flex-grow-1  ">🚗</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚗</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚗</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚗</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚗</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 py-1 flex-grow-1">🚗</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚗</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚗</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚗</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚗</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚗</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">🚗  </button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <!-- 63 -->
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                  
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="pb-3">
+                  <h4 class="h6 pl-3" id="list-item-7">Objects</h4>
+                  <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex">
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="emojis__item btn-emoji bg-transparent border-0 p-0 flex-grow-1  ">⌚️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">⌚️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">⌚️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">⌚️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">⌚️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 py-1 flex-grow-1">⌚️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">⌚️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">⌚️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">⌚️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">⌚️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">⌚️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">⌚️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">⌚️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">⌚️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">⌚️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">⌚️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">⌚️</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <!-- 63 -->
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                  
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="pb-3">
+                  <h4 class="h6 pl-3" id="list-item-8">Symols & Flags</h4>
+                  <ul class="emojis__list w-100 m-0 list-unstyled row d-flex flex">
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="emojis__item btn-emoji bg-transparent border-0 p-0 flex-grow-1  ">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 py-1 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <!-- 63 -->
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                  
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                    <li class="emojis__item d-flex align-items-center justify-content-center col-2 p-0">
+                      <button class="btn-emoji bg-transparent border-0 p-0 flex-grow-1">😀</button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+
+                <div class="emojis__nav d-flex align-items-center h-100 list-group flex-row border-0 position-relative" id="list-example">
+                  <a class="emojis__nav-link link-recenty-used list-group-item list-group-item-action bg-transparent border-0" href="#list-item-1"></a>
+
+                  <a class="emojis__nav-link link-people list-group-item list-group-item-action bg-transparent border-0" href="#list-item-2"></a>
+
+                  <a class="emojis__nav-link link-nature list-group-item list-group-item-action bg-transparent border-0" href="#list-item-3"></a>
+
+                  <a class="emojis__nav-link link-food list-group-item list-group-item-action bg-transparent border-0" href="#list-item-4"></a>
+
+                  <a class="emojis__nav-link link-activity list-group-item list-group-item-action bg-transparent border-0" href="#list-item-5"></a>
+
+                  <a class="emojis__nav-link link-travel list-group-item list-group-item-action bg-transparent border-0" href="#list-item-6"></a>
+
+                  <a class="emojis__nav-link link-objects list-group-item list-group-item-action bg-transparent border-0" href="#list-item-7"></a>
+
+                  <a class="emojis__nav-link link-symbols list-group-item list-group-item-action bg-transparent border-0" href="#list-item-8"></a>
+                </div>
+            </div>
+
+
+
+            <div class="tab-pane fade d-flex align-items-center flex-wrap" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+              <img class="emojis__gif img-fluid p-0 mr-1 flex-grow-1"  src="https://picsum.photos/100/100" alt="sticker1" width="100" height="100">
+              <img class="emojis__gif img-fluid p-0 mr-1 flex-grow-1"  src="https://picsum.photos/100/100" alt="sticker1" width="100" height="100">
+              <img class="emojis__gif img-fluid p-0 mr-1 flex-grow-1"  src="https://picsum.photos/100/100" alt="sticker1" width="100" height="100">
+              <img class="emojis__gif img-fluid p-0 mr-1 flex-grow-1"  src="https://picsum.photos/100/100" alt="sticker1" width="100" height="100">
+        
+            </div>
+
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+              <div class="d-flex align-items-center flex-wrap">
+                <img class="emojis__gif img-fluid p-0 mr-1 flex-grow-1"  src="https://picsum.photos//100/100/?random1" alt="sticker1" width="100" height="100">
+                <img class="emojis__gif img-fluid p-0 mr-1 flex-grow-1"  src="https://picsum.photos/100/100/?random2" alt="sticker1" width="100" height="100">
+                <img class="emojis__gif img-fluid p-0 mr-1 flex-grow-1"  src="https://picsum.photos/100/100/?random3" alt="sticker1" width="100" height="100">
+                <img class="emojis__gif img-fluid p-0 mr-1 flex-grow-1"  src="https://picsum.photos/100/100/?random4" alt="sticker1" width="100" height="100">
+              </div>
+        
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </div>
+
+  <div class="modal fade h-100" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog w-25" role="document">
+      <div class="modal-content">
+        <div class="modal-header p-4 d-flex justify-content-between bg-primary">
+          <div class="d-flex flex-column align-items-start">
+            <img class="modal__img d-block rounded-circle mb-4" src="img/profile.jpg" alt="" width="50" height="50">
+
+            <p class="account-name text-white mb-1">Ibrohim</p>
+            <p class="text-white m-0">+998 97 4250775</p>
+          </div>
+
+          <div class="d-flex flex-column align-items-center justify-content-between h-100">
+            <button class="modal-header__saved border-0 bg-transparent mb-4"></button>
+            <button class="modal-header__account-toggler border-0 bg-transparent mt-4"></button>
+          </div>
+
+        </div>
+
+        <div class="modal-body">
+         <ul class="sidebar-list list-unstyled">
+           <li class="sidebar-item d-flex align-items-center font-weight-bold mb-1 position-relative">
+           <a class="text-decoration-none text-dark stretched-link" href="#">New Group</a>
+          </li>
+
+          <li class="sidebar-item mb-1 d-flex align-items-center font-weight-bold position-relative">
+          <a class="text-decoration-none text-dark stretched-link" href="#">New Channel</a>
+          </li>
+
+          <li class="sidebar-item mb-1 d-flex align-items-center font-weight-bold position-relative">
+          <a class="text-decoration-none text-dark stretched-link" href="#">Contacts</a>
+          </li>
+
+          <li class="sidebar-item mb-1 d-flex align-items-center font-weight-bold position-relative">
+          <a class="text-decoration-none text-dark stretched-link" href="#">Calls</a>
+          </li>
+
+          <li class="sidebar-item mb-1 d-flex align-items-center font-weight-bold position-relative">
+          <a class="text-decoration-none text-dark stretched-link" href="#">Settings</a>
+          </li>
+
+          <li class="sidebar-item d-flex align-items-center font-weight-bold position-relative">
+          <div class="custom-control custom-switch d-flex flex-row-reverse">
+              <input type="checkbox" class="custom-control-input" id="customSwitch1">
+              <label class="custom-control-label text-dark" for="customSwitch1">Night mode</label>
+            </div>
+          </li>
+
+         </ul>
+        </div>
+
+
+
+
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <!-- Modal -->
+  <div class="modal group-info-modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header d-flex justify-content-between w-100">
+          <h5 class="modal-title text-dark font-weight-bold" id="exampleModalLongTitle">Group info</h5>
+          <div>
+            <button class="chat__btn-options border-0 bg-transparent"></button>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </div>
+
+
+        <div class="modal-body p-5">
+          <div class="d-flex align-items-center">
+            <img class="modal-body__img mr-4 mb-5 text-center" src="img/nt-programming.jpg" alt="najot" width="50" height="50">
+            <div class="d-flex flex-column align-items-start">
+              <h2 class="chat__info__title h6 font-weight-bold text-dark m-0">Frontend Bootcamp N1 |09:00| #nt044</h2>
+              <p>21 members</p>
+            </div>
+          </div>
+
+          <div class="when-opened w-100 d-flex align-items-start mx-auto mb-5">
+            <div class="flex-grow-1 w-75">
+              <p class="mb-1 text-dark">Dushanba-Juma</p>
+              <p class="mb-1 text-dark">Ochildi:12.04.2021</p>
+              <p class="mb-1 text-dark">Ustoz:Muhammadjavohir Sur'atov</p>
+              <span class="text-black-50">Description</span>
+            </div>
+
+          </div>
+
+          <div class="custom-control notification-control custom-switch d-flex align-items-center w-100 p-0 mb-5">
+            <span>Notification</span>
+            <div class="ml-auto">
+              <input type="checkbox" class="custom-control-input" id="customSwitch2">
+              <label class="custom-control-label" for="customSwitch2"></label>
+            </div>
+          </div>
+
+          <div class="mb-5">
+            <a class="text-decoration-none text-black-50" href="#">
+              <p class="photo d-flex align-items-center">363 photos</p>
+            </a>
+
+            <a class="text-decoration-none text-black-50" href="#">
+              <p class="video d-flex align-items-center">40 videos</p>
+            </a>
+
+            <a class="text-decoration-none text-black-50" href="#">
+              <p class="file d-flex align-items-center">233 files</p>
+            </a>
+
+            <a class="text-decoration-none h6 text-black-50" href="#">
+              <p class="link d-flex align-items-center">566 shared links</p>
+            </a>
+
+            <a class="text-decoration-none h6 text-black-50" href="#">
+              <p class="voice-message d-flex align-items-center">24 voice messages</p>
+            </a>
+
+            <a class="text-decoration-none h6 text-black-50" href="#">
+              <p class="gif d-flex align-items-center">291 GIFs</p>
+            </a>
+          </div>
+
+          <a class="text-decoration-none" href="#">
+            <p class="members font-weight-bold text-dark d-flex align-items-center mb-4">21 MEMBERS</p>
+          </a>
+
+          <ul class="modal__profile-list list-unstyled d-flex flex-column">
+            <li class="modal__profile-item">
+              <a class="modal__profile-link d-flex align-items-center text-decoration-none mb-3" href="#">
+                <img class="modal__profile-img mr-3" src="img/profile.jpg" alt="dajldsv" width="50" height="50">
+                <div class="d-flex flex-column">
+                  <p class="modal__profile-txt font-weight-bold text-dark mb-2">Ibrohim</p>
+                  <span class="text-primary">Online</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="modal__profile-item mb-3">
+              <a class="modal__profile-link d-flex align-items-center" href="#">
+                <img class="modal__profile-img mr-3" src="img/sarvar.jpg" alt="dajldsv" width="50" height="50">
+                <div class="d-flex flex-column">
+                  <p class="modal__profile-txt font-weight-bold text-dark mb-2">Sarvar</p>
+                  <span class="text-black-50">Last seen recently</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="modal__profile-item mb-3">
+              <a class="modal__profile-link d-flex align-items-center" href="#">
+                <img class="modal__profile-img mr-3" src="img/mukhammadyn.jpg" alt="dajldsv" width="50" height="50">
+                <div class="d-flex flex-column">
+                  <p class="modal__profile-txt font-weight-bold text-dark mb-2">Mukhammadyn</p>
+                  <span class="text-black-50">Last seen recently</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="modal__profile-item mb-3">
+              <a class="modal__profile-link d-flex align-items-center" href="#">
+                <img class="modal__profile-img mr-3" src="img/avaz.jpg" alt="dajldsv" width="50" height="50">
+                <div class="d-flex flex-column">
+                  <p class="modal__profile-txt font-weight-bold text-dark mb-2">Avaz NT</p>
+                  <span class="text-black-50">Last seen recently</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="modal__profile-item mb-3">
+              <a class="modal__profile-link d-flex align-items-center" href="#">
+                <img class="modal__profile-img mr-3" src="img/nt-programming.jpg" alt="dajldsv" width="50" height="50">
+                <div class="d-flex flex-column">
+                  <p class="modal__profile-txt font-weight-bold text-dark mb-2">Najot Ta'lim HR</p>
+                  <span class="text-black-50">Last seen recently</span>
+                </div>
+              </a>
+            </li>
+
+
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="js/jquery.min.js"> </script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
